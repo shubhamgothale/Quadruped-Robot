@@ -1,0 +1,2362 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<PhysicalModelingXMLFile>
+
+  <formatVersion>"1.0.4"</formatVersion>
+
+  <internalVersion>1</internalVersion>
+
+  <createdUsing>"SimMechanics Link Version 4.5"</createdUsing>
+
+  <createdFrom>"SolidWorks 24.2.0"</createdFrom>
+
+  <createdOn>"02/07/17||18:29:50"</createdOn>
+
+  <createdBy>"No formal user defined!"</createdBy>
+
+  <name>"assembly"</name>
+
+  <SimMechanics>
+    <name>"assembly"</name>
+    <nodeID>"assembly"</nodeID>
+    <bodies>
+      <Body>
+        <name>"Leg support-3"</name>
+        <nodeID>"Leg support-3"</nodeID>
+        <status>""</status>
+        <mass>0.015515</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.1229e-005,3.24667e-006,0,3.24667e-006,6.39183e-006,0,0,0,1.69208e-005</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.45e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00775</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-3::CG(AUTOGEN)"</nodeID>
+            <position>0.247857,0.133621,0.378208</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.99975,0.0136815,-0.0177007,-0.0136793,0.999906,0.000242194,0.0177024,0,0.999843</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-3::CS1(AUTOGEN)"</nodeID>
+            <position>0.226259,0.156,0.37859</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.99975,0.0136815,-0.0177007,-0.0136793,0.999906,0.000242194,0.0177024,0,0.999843</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="11">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-3:-:Rubber pad-4::Leg support-3(AUTOGEN)"</nodeID>
+            <position>0.256252,0.156411,0.378059</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="14">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-3:-:servo motor-6::Leg support-3(AUTOGEN)"</nodeID>
+            <position>0.246013,0.151274,0.360738</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - Leg support-3.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.7</specular>
+          <shininess>0.1</shininess>
+          <transparency>0.68</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Rubber pad-3"</name>
+        <nodeID>"Rubber pad-3"</nodeID>
+        <status>""</status>
+        <mass>0.0155</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>2.26136e-006,0,0,0,4.24896e-006,0,0,0,2.24573e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.55e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00505</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Rubber pad-3::CG(AUTOGEN)"</nodeID>
+            <position>0.259609,0.076379,0.095324</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.00231764,0,-0.999997,-0.0138456,0.999904,-3.20891e-005,0.999901,0.0138456,0.00231742</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Rubber pad-3::CS1(AUTOGEN)"</nodeID>
+            <position>0.259608,0.0764596,0.095324</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.00231764,0,-0.999997,-0.0138456,0.999904,-3.20891e-005,0.999901,0.0138456,0.00231742</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="18">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-1:-:Rubber pad-3::Rubber pad-3(AUTOGEN)"</nodeID>
+            <position>0.261,0.156487,0.0953273</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - Rubber pad-3.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.298039,0.298039,0.298039</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.8</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Leg support-4"</name>
+        <nodeID>"Leg support-4"</nodeID>
+        <status>""</status>
+        <mass>0.015515</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.1229e-005,3.24667e-006,0,3.24667e-006,6.39183e-006,0,0,0,1.69208e-005</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.45e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00775</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-4::CG(AUTOGEN)"</nodeID>
+            <position>-0.0608191,0.133256,0.377746</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.999752,0.0020986,-0.0221927,0.00209808,0.999998,4.65737e-005,0.0221927,0,-0.999754</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-4::CS1(AUTOGEN)"</nodeID>
+            <position>-0.0394837,0.155884,0.378219</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.999752,0.0020986,-0.0221927,0.00209808,0.999998,4.65737e-005,0.0221927,0,-0.999754</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="3">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-4:-:Rubber pad-1::Leg support-4(AUTOGEN)"</nodeID>
+            <position>-0.0748648,0.0759577,0.387436</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="6">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-4:-:servo motor-8::Leg support-4(AUTOGEN)"</nodeID>
+            <position>-0.0591009,0.150926,0.36028</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - Leg support-4.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.7</specular>
+          <shininess>0.1</shininess>
+          <transparency>0.68</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Rubber pad-2"</name>
+        <nodeID>"Rubber pad-2"</nodeID>
+        <status>""</status>
+        <mass>0.0155</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>2.26136e-006,0,0,0,4.24896e-006,0,0,0,2.24573e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.55e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00505</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Rubber pad-2::CG(AUTOGEN)"</nodeID>
+            <position>-0.0690361,0.074496,0.0957761</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.0064192,0,-0.999979,-0.0312447,0.999512,0.00020057,0.999491,0.0312453,-0.00641607</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Rubber pad-2::CS1(AUTOGEN)"</nodeID>
+            <position>-0.0690386,0.0745766,0.0957761</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.0064192,0,-0.999979,-0.0312447,0.999512,0.00020057,0.999491,0.0312453,-0.00641607</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="24">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-2:-:Rubber pad-2::Rubber pad-2(AUTOGEN)"</nodeID>
+            <position>-0.0690395,0.154616,0.0957761</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - Rubber pad-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.298039,0.298039,0.298039</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.8</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Rubber pad-1"</name>
+        <nodeID>"Rubber pad-1"</nodeID>
+        <status>""</status>
+        <mass>0.0155</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>2.26136e-006,0,0,0,4.24896e-006,0,0,0,2.24573e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.55e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00505</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Rubber pad-1::CG(AUTOGEN)"</nodeID>
+            <position>-0.0721541,0.0708718,0.377494</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.0221927,0,0.999754,0.00209808,0.999998,4.65737e-005,-0.999752,0.0020986,-0.0221927</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Rubber pad-1::CS1(AUTOGEN)"</nodeID>
+            <position>-0.072154,0.0709524,0.377494</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.0221927,0,0.999754,0.00209808,0.999998,4.65737e-005,-0.999752,0.0020986,-0.0221927</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="4">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-4:-:Rubber pad-1::Rubber pad-1(AUTOGEN)"</nodeID>
+            <position>-0.0748648,0.0759577,0.387436</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - Rubber pad-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.298039,0.298039,0.298039</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.8</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Leg support-1"</name>
+        <nodeID>"Leg support-1"</nodeID>
+        <status>""</status>
+        <mass>0.015515</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.1229e-005,3.24667e-006,0,3.24667e-006,6.39183e-006,0,0,0,1.69208e-005</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.45e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00775</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-1::CG(AUTOGEN)"</nodeID>
+            <position>0.247608,0.133627,0.0952962</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.999901,0.0138456,0.00231742,-0.0138456,0.999904,-3.20891e-005,-0.00231764,0,0.999997</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.226003,0.156002,0.0952461</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.999901,0.0138456,0.00231742,-0.0138456,0.999904,-3.20891e-005,-0.00231764,0,0.999997</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="10">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-1:-:servo motor-5::Leg support-1(AUTOGEN)"</nodeID>
+            <position>0.24603,0.151279,0.112793</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="17">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-1:-:Rubber pad-3::Leg support-1(AUTOGEN)"</nodeID>
+            <position>0.261,0.156487,0.0953273</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - Leg support-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.7</specular>
+          <shininess>0.1</shininess>
+          <transparency>0.68</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Leg support-2"</name>
+        <nodeID>"Leg support-2"</nodeID>
+        <status>""</status>
+        <mass>0.015515</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.1229e-005,3.24667e-006,0,3.24667e-006,6.39183e-006,0,0,0,1.69208e-005</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.45e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00775</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-2::CG(AUTOGEN)"</nodeID>
+            <position>-0.0596286,0.132226,0.0957157</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.999491,-0.0312453,0.00641607,-0.0312447,0.999512,0.00020057,-0.0064192,0,-0.999979</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-2::CS1(AUTOGEN)"</nodeID>
+            <position>-0.0390547,0.155553,0.0955836</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.999491,-0.0312453,0.00641607,-0.0312447,0.999512,0.00020057,-0.0064192,0,-0.999979</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="23">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-2:-:Rubber pad-2::Leg support-2(AUTOGEN)"</nodeID>
+            <position>-0.0690395,0.154616,0.0957761</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="26">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-2:-:servo motor-7::Leg support-2(AUTOGEN)"</nodeID>
+            <position>-0.058776,0.149931,0.113211</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - Leg support-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.7</specular>
+          <shininess>0.1</shininess>
+          <transparency>0.68</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Rubber pad-4"</name>
+        <nodeID>"Rubber pad-4"</nodeID>
+        <status>""</status>
+        <mass>0.0155</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>2.26136e-006,0,0,0,4.24896e-006,0,0,0,2.24573e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.55e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00505</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Rubber pad-4::CG(AUTOGEN)"</nodeID>
+            <position>0.259846,0.0763718,0.377996</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.0177024,0,-0.999843,-0.0136793,0.999906,0.000242194,0.99975,0.0136815,-0.0177007</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Rubber pad-4::CS1(AUTOGEN)"</nodeID>
+            <position>0.259845,0.0764524,0.377996</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.0177024,0,-0.999843,-0.0136793,0.999906,0.000242194,0.99975,0.0136815,-0.0177007</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="12">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-3:-:Rubber pad-4::Rubber pad-4(AUTOGEN)"</nodeID>
+            <position>0.256252,0.156411,0.378059</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - Rubber pad-4.STL"</geometryFileName>
+        <MaterialProp>
+          <color>0.298039,0.298039,0.298039</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.5</specular>
+          <shininess>0.8</shininess>
+          <transparency>0</transparency>
+          <emission>0</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"servo motor-2"</name>
+        <nodeID>"servo motor-2"</nodeID>
+        <status>""</status>
+        <mass>0.0269731</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>3.89333e-006,-1.01174e-007,0,-1.01174e-007,4.47129e-006,0,0,0,6.59012e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.83927e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00611416</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-2::CG(AUTOGEN)"</nodeID>
+            <position>0.0532565,0.126243,0.362555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-1,0,0,0,1,0,0,0,-1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-2::CS1(AUTOGEN)"</nodeID>
+            <position>0.0533948,0.125863,0.362555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-1,0,0,0,1,0,0,0,-1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="27">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-2:-:side support-2::servo motor-2(AUTOGEN)"</nodeID>
+            <position>0.0433948,0.163363,0.362555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="30">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Body-1:-:servo motor-2::servo motor-2(AUTOGEN)"</nodeID>
+            <position>0.0933948,0.143363,0.237555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - servo motor-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"side support-3"</name>
+        <nodeID>"side support-3"</nodeID>
+        <status>""</status>
+        <mass>0.0153049</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.44196e-005,0,0,0,1.34043e-005,-1.97584e-006,0,-1.97584e-006,1.74788e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.43037e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00737854</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"side support-3::CG(AUTOGEN)"</nodeID>
+            <position>0.167338,0.160863,0.124725</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0,1,0,0.00231764,0,-0.999997,-0.999997,0,-0.00231764</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"side support-3::CS1(AUTOGEN)"</nodeID>
+            <position>0.178354,0.160863,0.130136</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0,1,0,0.00231764,0,-0.999997,-0.999997,0,-0.00231764</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="7">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-5:-:side support-3::side support-3(AUTOGEN)"</nodeID>
+            <position>0.215848,0.160863,0.132723</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="16">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-3:-:side support-3::side support-3(AUTOGEN)"</nodeID>
+            <position>0.143395,0.163363,0.112555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - side support-3.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.7</specular>
+          <shininess>0.1</shininess>
+          <transparency>0.68</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"servo motor-5"</name>
+        <nodeID>"servo motor-5"</nodeID>
+        <status>""</status>
+        <mass>0.0269731</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>3.89333e-006,-1.01174e-007,0,-1.01174e-007,4.47129e-006,0,0,0,6.59012e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.83927e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00611416</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-5::CG(AUTOGEN)"</nodeID>
+            <position>0.225795,0.161,0.095626</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.999901,-0.0138456,-0.00231742,-0.00231764,0,0.999997,-0.0138456,0.999904,-3.20891e-005</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-5::CS1(AUTOGEN)"</nodeID>
+            <position>0.225934,0.161001,0.095246</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.999901,-0.0138456,-0.00231742,-0.00231764,0,0.999997,-0.0138456,0.999904,-3.20891e-005</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="8">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-5:-:side support-3::servo motor-5(AUTOGEN)"</nodeID>
+            <position>0.215848,0.160863,0.132723</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="9">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-1:-:servo motor-5::servo motor-5(AUTOGEN)"</nodeID>
+            <position>0.24603,0.151279,0.112793</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - servo motor-5.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"side support-4"</name>
+        <nodeID>"side support-4"</nodeID>
+        <status>""</status>
+        <mass>0.0153049</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.44196e-005,0,0,0,1.34043e-005,-1.97584e-006,0,-1.97584e-006,1.74788e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.43037e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00737854</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"side support-4::CG(AUTOGEN)"</nodeID>
+            <position>0.0195014,0.160863,0.124823</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0,-1,0,-0.0064192,0,-0.999979,0.999979,0,-0.0064192</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"side support-4::CS1(AUTOGEN)"</nodeID>
+            <position>0.00850787,0.160863,0.130279</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0,-1,0,-0.0064192,0,-0.999979,0.999979,0,-0.0064192</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="20">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-1:-:side support-4::side support-4(AUTOGEN)"</nodeID>
+            <position>0.0433948,0.163363,0.112555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="31">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-7:-:side support-4::side support-4(AUTOGEN)"</nodeID>
+            <position>-0.0289753,0.160863,0.13302</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - side support-4.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.7</specular>
+          <shininess>0.1</shininess>
+          <transparency>0.68</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"side support-1"</name>
+        <nodeID>"side support-1"</nodeID>
+        <status>""</status>
+        <mass>0.0153049</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.44196e-005,0,0,0,1.34043e-005,-1.97584e-006,0,-1.97584e-006,1.74788e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.43037e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00737854</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"side support-1::CG(AUTOGEN)"</nodeID>
+            <position>0.167148,0.160863,0.350018</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0,-1,0,0.0177024,0,0.999843,-0.999843,0,0.0177024</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"side support-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.17808,0.160863,0.344438</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0,-1,0,0.0177024,0,0.999843,-0.999843,0,0.0177024</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="34">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-4:-:side support-1::side support-1(AUTOGEN)"</nodeID>
+            <position>0.143395,0.163363,0.362555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="35">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-6:-:side support-1::side support-1(AUTOGEN)"</nodeID>
+            <position>0.215529,0.160863,0.341274</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - side support-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.7</specular>
+          <shininess>0.1</shininess>
+          <transparency>0.68</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"servo motor-1"</name>
+        <nodeID>"servo motor-1"</nodeID>
+        <status>""</status>
+        <mass>0.0269731</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>3.89333e-006,-1.01174e-007,0,-1.01174e-007,4.47129e-006,0,0,0,6.59012e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.83927e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00611416</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-1::CG(AUTOGEN)"</nodeID>
+            <position>0.0532565,0.126243,0.112555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-1,0,0,0,1,0,0,0,-1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.0533948,0.125863,0.112555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-1,0,0,0,1,0,0,0,-1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="19">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-1:-:side support-4::servo motor-1(AUTOGEN)"</nodeID>
+            <position>0.0433948,0.163363,0.112555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="22">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Body-1:-:servo motor-1::servo motor-1(AUTOGEN)"</nodeID>
+            <position>0.0933948,0.143363,0.237555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - servo motor-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"side support-2"</name>
+        <nodeID>"side support-2"</nodeID>
+        <status>""</status>
+        <mass>0.0153049</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>1.44196e-005,0,0,0,1.34043e-005,-1.97584e-006,0,-1.97584e-006,1.74788e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>1.43037e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00737854</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"side support-2::CG(AUTOGEN)"</nodeID>
+            <position>0.0196979,0.160863,0.349911</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0,1,0,-0.0221927,0,0.999754,0.999754,0,0.0221927</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"side support-2::CS1(AUTOGEN)"</nodeID>
+            <position>0.0087918,0.160863,0.344282</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0,1,0,-0.0221927,0,0.999754,0.999754,0,0.0221927</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="28">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-2:-:side support-2::side support-2(AUTOGEN)"</nodeID>
+            <position>0.0433948,0.163363,0.362555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="37">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-8:-:side support-2::side support-2(AUTOGEN)"</nodeID>
+            <position>-0.0286435,0.160863,0.340951</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - side support-2.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.7</specular>
+          <shininess>0.1</shininess>
+          <transparency>0.68</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"servo motor-6"</name>
+        <nodeID>"servo motor-6"</nodeID>
+        <status>""</status>
+        <mass>0.0269731</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>3.89333e-006,-1.01174e-007,0,-1.01174e-007,4.47129e-006,0,0,0,6.59012e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.83927e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00611416</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-6::CG(AUTOGEN)"</nodeID>
+            <position>0.226046,0.160998,0.378214</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.99975,-0.0136815,0.0177007,-0.0177024,0,-0.999843,0.0136793,-0.999906,-0.000242194</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-6::CS1(AUTOGEN)"</nodeID>
+            <position>0.226191,0.161,0.378592</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>-0.99975,-0.0136815,0.0177007,-0.0177024,0,-0.999843,0.0136793,-0.999906,-0.000242194</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="13">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-3:-:servo motor-6::servo motor-6(AUTOGEN)"</nodeID>
+            <position>0.246013,0.151274,0.360738</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="36">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-6:-:side support-1::servo motor-6(AUTOGEN)"</nodeID>
+            <position>0.215529,0.160863,0.341274</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - servo motor-6.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"servo motor-7"</name>
+        <nodeID>"servo motor-7"</nodeID>
+        <status>""</status>
+        <mass>0.0269731</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>3.89333e-006,-1.01174e-007,0,-1.01174e-007,4.47129e-006,0,0,0,6.59012e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.83927e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00611416</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-7::CG(AUTOGEN)"</nodeID>
+            <position>-0.0390703,0.160555,0.0959641</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.999491,0.0312453,-0.00641607,0.0064192,0,0.999979,0.0312447,-0.999512,-0.00020057</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-7::CS1(AUTOGEN)"</nodeID>
+            <position>-0.0392109,0.160551,0.0955846</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.999491,0.0312453,-0.00641607,0.0064192,0,0.999979,0.0312447,-0.999512,-0.00020057</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="25">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-2:-:servo motor-7::servo motor-7(AUTOGEN)"</nodeID>
+            <position>-0.058776,0.149931,0.113211</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="32">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-7:-:side support-4::servo motor-7(AUTOGEN)"</nodeID>
+            <position>-0.0289753,0.160863,0.13302</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - servo motor-7.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"servo motor-3"</name>
+        <nodeID>"servo motor-3"</nodeID>
+        <status>""</status>
+        <mass>0.0269731</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>3.89333e-006,-1.01174e-007,0,-1.01174e-007,4.47129e-006,0,0,0,6.59012e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.83927e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00611416</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-3::CG(AUTOGEN)"</nodeID>
+            <position>0.133533,0.126243,0.112555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-3::CS1(AUTOGEN)"</nodeID>
+            <position>0.133395,0.125863,0.112555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="15">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-3:-:side support-3::servo motor-3(AUTOGEN)"</nodeID>
+            <position>0.143395,0.163363,0.112555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="42">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Body-1:-:servo motor-3::servo motor-3(AUTOGEN)"</nodeID>
+            <position>0.153395,0.138363,0.102555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - servo motor-3.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"Body-1"</name>
+        <nodeID>"Body-1"</nodeID>
+        <status>""</status>
+        <mass>0.20009</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0.00125463,0,0,0,0.00157931,0,0,0,0.000325519</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0.000187</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.0815</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"Body-1::CG(AUTOGEN)"</nodeID>
+            <position>0.0933948,0.140863,0.237555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"Body-1::CS1(AUTOGEN)"</nodeID>
+            <position>0.0933948,0.140863,0.237555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="2">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Body-1:-:assembly/RootPart::Body-1(AUTOGEN)"</nodeID>
+            <position>0.0933948,0.140863,0.237555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="21">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Body-1:-:servo motor-1::Body-1(AUTOGEN)"</nodeID>
+            <position>0.0933948,0.143363,0.237555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="29">
+            <name>"CS4"</name>
+            <displayName>""</displayName>
+            <nodeID>"Body-1:-:servo motor-2::Body-1(AUTOGEN)"</nodeID>
+            <position>0.0933948,0.143363,0.237555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="39">
+            <name>"CS5"</name>
+            <displayName>""</displayName>
+            <nodeID>"Body-1:-:servo motor-4::Body-1(AUTOGEN)"</nodeID>
+            <position>0.153395,0.138363,0.372555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="41">
+            <name>"CS6"</name>
+            <displayName>""</displayName>
+            <nodeID>"Body-1:-:servo motor-3::Body-1(AUTOGEN)"</nodeID>
+            <position>0.153395,0.138363,0.102555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - Body-1.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>0.7</specular>
+          <shininess>0.1</shininess>
+          <transparency>0.68</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"RootPart"</name>
+        <nodeID>"assembly/RootPart"</nodeID>
+        <status>""</status>
+        <mass>0</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>0,0,0,0,0,0,0,0,0</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>0</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"assembly/RootPart::CG(AUTOGEN)"</nodeID>
+            <position>0.0935494,0.136231,0.237243</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"assembly/RootPart::CS1(AUTOGEN)"</nodeID>
+            <position>0,0,0</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="1">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Body-1:-:assembly/RootPart::assembly/RootPart(AUTOGEN)"</nodeID>
+            <position>0.0933948,0.140863,0.237555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="44">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"RootGround:-:assembly/RootPart::assembly/RootPart(AUTOGEN)"</nodeID>
+            <position>0.0935494,0.136231,0.237243</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>""</geometryFileName>
+      </Body>
+      <Body>
+        <name>"servo motor-8"</name>
+        <nodeID>"servo motor-8"</nodeID>
+        <status>""</status>
+        <mass>0.0269731</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>3.89333e-006,-1.01174e-007,0,-1.01174e-007,4.47129e-006,0,0,0,6.59012e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.83927e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00611416</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-8::CG(AUTOGEN)"</nodeID>
+            <position>-0.0393265,0.160884,0.377842</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.999752,-0.0020986,0.0221927,0.0221927,0,-0.999754,0.00209808,0.999998,4.65737e-005</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-8::CS1(AUTOGEN)"</nodeID>
+            <position>-0.0394732,0.160884,0.37822</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>0.999752,-0.0020986,0.0221927,0.0221927,0,-0.999754,0.00209808,0.999998,4.65737e-005</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="5">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"Leg support-4:-:servo motor-8::servo motor-8(AUTOGEN)"</nodeID>
+            <position>-0.0591009,0.150926,0.36028</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="38">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-8:-:side support-2::servo motor-8(AUTOGEN)"</nodeID>
+            <position>-0.0286435,0.160863,0.340951</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - servo motor-8.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+      <Body>
+        <name>"servo motor-4"</name>
+        <nodeID>"servo motor-4"</nodeID>
+        <status>""</status>
+        <mass>0.0269731</mass>
+        <massUnits>"kg"</massUnits>
+        <inertia>3.89333e-006,-1.01174e-007,0,-1.01174e-007,4.47129e-006,0,0,0,6.59012e-006</inertia>
+        <inertiaUnits>"kg*m^2"</inertiaUnits>
+        <volume>2.83927e-005</volume>
+        <volumeUnits>"m^3"</volumeUnits>
+        <surfaceArea>0.00611416</surfaceArea>
+        <surfaceAreaUnits>"m^2"</surfaceAreaUnits>
+        <frames>
+          <Frame>
+            <name>"CG"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-4::CG(AUTOGEN)"</nodeID>
+            <position>0.133533,0.126243,0.362555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame>
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-4::CS1(AUTOGEN)"</nodeID>
+            <position>0.133395,0.125863,0.362555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="33">
+            <name>"CS2"</name>
+            <displayName>""</displayName>
+            <nodeID>"servo motor-4:-:side support-1::servo motor-4(AUTOGEN)"</nodeID>
+            <position>0.143395,0.163363,0.362555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+          <Frame ref="40">
+            <name>"CS3"</name>
+            <displayName>""</displayName>
+            <nodeID>"Body-1:-:servo motor-4::servo motor-4(AUTOGEN)"</nodeID>
+            <position>0.153395,0.138363,0.372555</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frames>
+        <geometryFileName>"assembly - servo motor-4.STL"</geometryFileName>
+        <MaterialProp>
+          <color>1,1,1</color>
+          <ambient>1</ambient>
+          <diffuse>1</diffuse>
+          <specular>1</specular>
+          <shininess>0.3125</shininess>
+          <transparency>0</transparency>
+          <emission>0.3</emission>
+        </MaterialProp>
+      </Body>
+    </bodies>
+    <joints>
+      <SimpleJoint>
+        <name>"RootPart--Body-1"</name>
+        <nodeID>"Body-1:-:assembly/RootPart"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="1"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="2"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Leg support-4--Rubber pad-1"</name>
+        <nodeID>"Leg support-4:-:Rubber pad-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="3"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="4"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"servo motor-8--Leg support-4"</name>
+        <nodeID>"Leg support-4:-:servo motor-8"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="5"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="6"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"side support-3--servo motor-5"</name>
+        <nodeID>"servo motor-5:-:side support-3"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="7"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="8"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.00231764,0,-0.999997</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"servo motor-5--Leg support-1"</name>
+        <nodeID>"Leg support-1:-:servo motor-5"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="9"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="10"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Leg support-3--Rubber pad-4"</name>
+        <nodeID>"Leg support-3:-:Rubber pad-4"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="11"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="12"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"servo motor-6--Leg support-3"</name>
+        <nodeID>"Leg support-3:-:servo motor-6"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="13"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="14"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"servo motor-3--side support-3"</name>
+        <nodeID>"servo motor-3:-:side support-3"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="15"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="16"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,-1,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Leg support-1--Rubber pad-3"</name>
+        <nodeID>"Leg support-1:-:Rubber pad-3"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="17"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="18"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"servo motor-1--side support-4"</name>
+        <nodeID>"servo motor-1:-:side support-4"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="19"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="20"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,-1,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Body-1--servo motor-1"</name>
+        <nodeID>"Body-1:-:servo motor-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="21"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="22"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Leg support-2--Rubber pad-2"</name>
+        <nodeID>"Leg support-2:-:Rubber pad-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="23"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="24"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"servo motor-7--Leg support-2"</name>
+        <nodeID>"Leg support-2:-:servo motor-7"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="25"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="26"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"servo motor-2--side support-2"</name>
+        <nodeID>"servo motor-2:-:side support-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="27"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="28"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,-1,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Body-1--servo motor-2"</name>
+        <nodeID>"Body-1:-:servo motor-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="29"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="30"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"side support-4--servo motor-7"</name>
+        <nodeID>"servo motor-7:-:side support-4"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="31"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="32"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-0.0064192,0,-0.999979</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"servo motor-4--side support-1"</name>
+        <nodeID>"servo motor-4:-:side support-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="33"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="34"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0,1,0</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"side support-1--servo motor-6"</name>
+        <nodeID>"servo motor-6:-:side support-1"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="35"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="36"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.0177024,0,0.999843</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"side support-2--servo motor-8"</name>
+        <nodeID>"servo motor-8:-:side support-2"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="37"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="38"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"revolute"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>-0.0221927,0,0.999754</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Body-1--servo motor-4"</name>
+        <nodeID>"Body-1:-:servo motor-4"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="39"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="40"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"Body-1--servo motor-3"</name>
+        <nodeID>"Body-1:-:servo motor-3"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="41"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="42"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+      <SimpleJoint>
+        <name>"RootGround--RootPart"</name>
+        <nodeID>"RootGround:-:assembly/RootPart"</nodeID>
+        <status>""</status>
+        <base>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="43"></Frame>
+            </connection>
+          </JointSide>
+        </base>
+        <follower>
+          <JointSide>
+            <name>""</name>
+            <connection>
+              <Frame ref="44"></Frame>
+            </connection>
+          </JointSide>
+        </follower>
+        <primitives>
+          <Primitive>
+            <name>"weld"</name>
+            <nodeID>""</nodeID>
+            <referenceFrame>"WORLD"</referenceFrame>
+            <axis>0.57735,0.57735,0.57735</axis>
+          </Primitive>
+        </primitives>
+      </SimpleJoint>
+    </joints>
+    <grounds>
+      <Ground>
+        <name>"RootGround"</name>
+        <nodeID>"RootGround"</nodeID>
+        <status>""</status>
+        <frame>
+          <Frame ref="43">
+            <name>"CS1"</name>
+            <displayName>""</displayName>
+            <nodeID>"RootGround:-:assembly/RootPart::RootGround(AUTOGEN)"</nodeID>
+            <position>0.0935494,0.136231,0.237243</position>
+            <positionOrigin>"WORLD"</positionOrigin>
+            <positionReferenceFrame>"WORLD"</positionReferenceFrame>
+            <positionUnits>"m"</positionUnits>
+            <orientation>1,0,0,0,1,0,0,0,1</orientation>
+            <orientationType>"3x3 Transform"</orientationType>
+            <orientationUnits>"rad"</orientationUnits>
+            <orientationReferenceFrame>"WORLD"</orientationReferenceFrame>
+          </Frame>
+        </frame>
+      </Ground>
+    </grounds>
+    <subsystems></subsystems>
+    <connectionPorts></connectionPorts>
+    <id>0</id>
+  </SimMechanics>
+
+</PhysicalModelingXMLFile>

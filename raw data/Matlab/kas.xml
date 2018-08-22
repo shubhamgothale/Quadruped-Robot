@@ -1,0 +1,1092 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimMechanicsImportXML version="1.0" xmlns="urn:mathworks:simmechanics:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="02/08/17||00:26:53" using="SimMechanics Link Version 4.5" from="SolidWorks 24.2.0"/>
+<ModelUnits mass="kilogram" length="meter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="assembly" uid="assembly" version="300">
+<AssemblyFile name="assembly.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="side support-1" uid="side support-1" entityUid="side support*:*Default">
+<Transform>
+<Rotation>0 0.017702361177739802 -0.99984330092706653 -1 0 0 0 0.99984330092706653 0.017702361177739802</Rotation>
+<Translation>0.17807953360699813 0.16086302780559389 0.34443789422162491</Translation>
+</Transform>
+</Instance>
+<Instance name="servo motor-4" uid="servo motor-4" entityUid="servo motor*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.13339480939516349 0.12586302780559389 0.36255473462906662</Translation>
+</Transform>
+</Instance>
+<Instance name="side support-4" uid="side support-4" entityUid="side support*:*Default">
+<Transform>
+<Rotation>0 -0.0064192031765245563 0.99997939670304148 -1 0 0 0 -0.99997939670304148 -0.0064192031765245563</Rotation>
+<Translation>0.0085078665661461293 0.16086302780559389 0.1302790461825484</Translation>
+</Transform>
+</Instance>
+<Instance name="servo motor-1" uid="servo motor-1" entityUid="servo motor*:*Default">
+<Transform>
+<Rotation>-1 0 0 0 1 0 0 0 -1</Rotation>
+<Translation>0.053394809395163487 0.12586302780559389 0.11255473462906662</Translation>
+</Transform>
+</Instance>
+<Instance name="Body-1" uid="Body-1" grounded="true" entityUid="Body*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.093394809395163481 0.1408630278055939 0.23755473462906659</Translation>
+</Transform>
+</Instance>
+<Instance name="servo motor-2" uid="servo motor-2" entityUid="servo motor*:*Default">
+<Transform>
+<Rotation>-1 0 -6.106226635438358e-016 0 1 0 6.106226635438358e-016 0 -1</Rotation>
+<Translation>0.053394809395163487 0.12586302780559389 0.36255473462906657</Translation>
+</Transform>
+</Instance>
+<Instance name="servo motor-3" uid="servo motor-3" entityUid="servo motor*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.13339480939516352 0.12586302780559389 0.11255473462906661</Translation>
+</Transform>
+</Instance>
+<Instance name="side support-2" uid="side support-2" entityUid="side support*:*Default">
+<Transform>
+<Rotation>0 -0.022192719121719849 0.99975371127992541 1 1.1280437577004012e-016 0 -1.1102230246046966e-016 0.99975371127992541 0.022192719121719849</Rotation>
+<Translation>0.008791802084996166 0.16086302780559389 0.34428229951240796</Translation>
+</Transform>
+</Instance>
+<Instance name="side support-3" uid="side support-3" entityUid="side support*:*Default">
+<Transform>
+<Rotation>0 0.0023176385129073749 -0.99999731427225536 1 0 0 0 -0.99999731427225536 -0.0023176385129073749</Rotation>
+<Translation>0.17835415672071653 0.16086302780559389 0.13013580497678276</Translation>
+</Transform>
+</Instance>
+<Instance name="servo motor-8" uid="servo motor-8" entityUid="servo motor*:*Default">
+<Transform>
+<Rotation>0.99975150975620652 0.022192719121719925 0.0020980844048926186 -0.0020986012667125417 -1.119264898380361e-016 0.99999779793393717 0.022192670251886301 -0.99975371127992541 4.6573668460525183e-005</Rotation>
+<Translation>-0.039473222354823409 0.16088401381826103 0.37821952573762202</Translation>
+</Transform>
+</Instance>
+<Instance name="Rubber pad-5" uid="Rubber pad-5" entityUid="Rubber pad*:*Default">
+<Transform>
+<Rotation>-0.0023176385129069499 -0.013845577826363722 -0.99990145940806474 -6.4184768611141862e-016 0.99990414487836876 -0.013845615011916099 0.99999731427225524 -3.2089130585854722e-005 -0.0023174163553852378</Rotation>
+<Translation>0.25960785949396181 0.076459614128938855 0.095324028192691784</Translation>
+</Transform>
+</Instance>
+<Instance name="Leg support-3" uid="Leg support-3" entityUid="Leg support*:*Default">
+<Transform>
+<Rotation>0.99974971994895778 -0.013679322743245183 0.01770236117773695 0.013681466616380327 0.99990640435554023 -1.521576720315949e-016 -0.017700704313834064 0.0002421942634844698 0.99984330092706686</Rotation>
+<Translation>0.22625913384618865 0.15600031044997983 0.37859035319545187</Translation>
+</Transform>
+</Instance>
+<Instance name="Rubber pad-6" uid="Rubber pad-6" entityUid="Rubber pad*:*Default">
+<Transform>
+<Rotation>0.017702361177736686 -0.013679322743245589 -0.99974971994895745 -1.7650811368064012e-016 0.9999064043555399 -0.013681466616380587 0.99984330092706675 0.00024219426348446937 0.017700704313833915</Rotation>
+<Translation>0.25984534556398953 0.076452445766568913 0.37799570476417343</Translation>
+</Transform>
+</Instance>
+<Instance name="servo motor-6" uid="servo motor-6" entityUid="servo motor*:*Default">
+<Transform>
+<Rotation>-0.99974971994895778 -0.017702361177736887 0.013679322743245145 -0.013681466616380283 0 -0.99990640435554023 0.017700704313833995 -0.99984330092706686 -0.00024219426348436951</Rotation>
+<Translation>0.22619073723247252 0.16099984247175764 0.37859156416676937</Translation>
+</Transform>
+</Instance>
+<Instance name="Leg support-1" uid="Leg support-1" entityUid="Leg support*:*Default">
+<Transform>
+<Rotation>0.99990145940806463 -0.013845577826363389 -0.0023176385129069091 0.013845615011915769 0.99990414487836876 -7.2268173433379101e-016 0.0023174163553853671 -3.2089130585775426e-005 0.99999731427225513</Rotation>
+<Translation>0.2260034158370906 0.15600196323132109 0.095246145030694895</Translation>
+</Transform>
+</Instance>
+<Instance name="Rubber pad-7" uid="Rubber pad-7" entityUid="Rubber pad*:*Default">
+<Transform>
+<Rotation>-0.022192719121720234 0.0020980844048928567 -0.99975150975620664 2.0816639360074322e-016 0.99999779793393706 0.0020986012667127776 0.99975371127992552 4.6573668460434835e-005 -0.022192670251886613</Rotation>
+<Translation>-0.072143483596316033 0.075952405535044495 0.37749430519261667</Translation>
+</Transform>
+</Instance>
+<Instance name="Leg support-2" uid="Leg support-2" entityUid="Leg support*:*Default">
+<Transform>
+<Rotation>-0.99992901827881786 0.010037541259599344 -0.0064192031765245927 0.01003774807030363 0.99994962053779346 1.032106415346197e-016 0.0064188797805207667 -6.4434344297943454e-005 -0.99997939670304137</Rotation>
+<Translation>-0.039265510810482615 0.15596365718360794 0.095584998386588196</Translation>
+</Transform>
+</Instance>
+<Instance name="servo motor-7" uid="servo motor-7" entityUid="servo motor*:*Default">
+<Transform>
+<Rotation>0.99992901827881786 0.0064192031765245225 -0.010037541259598784 -0.010037748070303073 0 -0.99994962053779346 -0.0064188797805206955 0.99997939670304126 6.4434344298077922e-005</Rotation>
+<Translation>-0.039215323104184616 0.16096340528629691 0.095584676214866701</Translation>
+</Transform>
+</Instance>
+<Instance name="Leg support-4" uid="Leg support-4" entityUid="Leg support*:*Default">
+<Transform>
+<Rotation>-0.99975150975620652 0.0020980844048926256 0.022192719121719884 0.002098601266712549 0.99999779793393706 0 -0.022192670251886266 4.657366846053858e-005 -0.99975371127992541</Rotation>
+<Translation>-0.039483712776847882 0.15588402482859132 0.37821929286927974</Translation>
+</Transform>
+</Instance>
+<Instance name="servo motor-5" uid="servo motor-5" entityUid="servo motor*:*Default">
+<Transform>
+<Rotation>-0.99990145940806496 -0.0023176385129073428 -0.013845577826363715 -0.0138456150119161 0 0.99990414487836876 -0.0023174163553857895 0.99999731427225524 -3.2089130586518728e-005</Rotation>
+<Translation>0.22593418794795883 0.16100148395571318 0.095245984585042034</Translation>
+</Transform>
+</Instance>
+<Instance name="Rubber pad-2" uid="Rubber pad-2" entityUid="Rubber pad*:*Default">
+<Transform>
+<Rotation>-0.0064192031765246509 0.010037541259600371 0.99992901827881786 2.4985832184350057e-016 0.99994962053779346 -0.010037748070304657 -0.99997939670304148 -6.4434344297804012e-005 -0.0064188797805208274</Rotation>
+<Translation>-0.072566207205312205 0.076293914352869321 0.095798766726999052</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0.059999999999999998 -0.0025000000000000022 0.13500000000000004</Position>
+<Axis>-1 0 3.4694469519536117e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-4</Uid>
+</InstancePath>
+<Position>0.01999999999999999 0.017500000000000016 -0.010000000000000009</Position>
+<Axis>1 0 1.7347234759768071e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0 0.0025000000000000022 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-4</Uid>
+</InstancePath>
+<Position>0 0.017500000000000016 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0.01999999999999999 -0.0025000000000000022 0.13499999999999998</Position>
+<Axis>6.9388939039072284e-016 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-4</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 0.017500000000000016 0.010000000000000009</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0.059999999999999998 -0.0025000000000000022 -0.13500000000000001</Position>
+<Axis>-1 0 -3.4694469519536117e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-3</Uid>
+</InstancePath>
+<Position>0.01999999999999999 0.017500000000000016 -0.010000000000000009</Position>
+<Axis>1 0 1.7347234759768071e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident15">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0 0.0025000000000000022 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-3</Uid>
+</InstancePath>
+<Position>0 0.017500000000000016 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident16">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0.01999999999999999 -0.0025000000000000022 -0.11500000000000003</Position>
+<Axis>1.0408340855860845e-015 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-3</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 0.017500000000000016 0.009999999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident17">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0 0.0025000000000000022 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-1</Uid>
+</InstancePath>
+<Position>0 0.017500000000000016 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident18">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>-0.01999999999999999 -0.0025000000000000022 -0.13499999999999998</Position>
+<Axis>-1 0 1.7347234759768118e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-1</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 0.017500000000000016 -0.010000000000000009</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident20">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>-0.059999999999999991 -0.0025000000000000022 -0.13500000000000001</Position>
+<Axis>1 0 -3.4694469519536117e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-1</Uid>
+</InstancePath>
+<Position>0.020000000000000004 0.017500000000000016 -0.010000000000000009</Position>
+<Axis>1 0 1.7347234759768071e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident21">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>-0.01999999999999999 -0.0025000000000000022 -0.13499999999999998</Position>
+<Axis>-6.9388939039072284e-016 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-1</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 0.017500000000000016 0.009999999999999995</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident28">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>0 0.0025000000000000022 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-2</Uid>
+</InstancePath>
+<Position>0 0.017500000000000016 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident29">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>-0.01999999999999999 -0.0025000000000000022 0.13499999999999998</Position>
+<Axis>-6.9388939039072284e-016 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-2</Uid>
+</InstancePath>
+<Position>-0.019999999999999997 0.017500000000000016 -0.010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident30">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Body-1</Uid>
+</InstancePath>
+<Position>-0.01999999999999999 -0.0025000000000000022 0.13499999999999998</Position>
+<Axis>-1 0 -1.7347234759768118e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-2</Uid>
+</InstancePath>
+<Position>-0.019999999999999997 0.017500000000000016 -0.010000000000000009</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident35">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-4</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.037500000000000006 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>side support-1</Uid>
+</InstancePath>
+<Position>-0.0025000000000000022 0.032500000000000029 0.049999999999999989</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident36">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-4</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.037500000000000006 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>side support-1</Uid>
+</InstancePath>
+<Position>-0.0025000000000000022 0.032500000000000029 0.049999999999999989</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo motor-4</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.037500000000000006 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>side support-1</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.017500000000000016 0.034999999999999976</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo motor-3</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.037500000000000006 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>side support-3</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.017500000000000016 0.035000000000000003</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo motor-1</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0.037500000000000006 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>side support-4</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.017500000000000002 0.035000000000000003</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident38">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-1</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0.037500000000000006 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>side support-4</Uid>
+</InstancePath>
+<Position>-0.0025000000000000022 0.032500000000000001 0.050000000000000017</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident41">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-3</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.037500000000000006 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>side support-3</Uid>
+</InstancePath>
+<Position>0.0025000000000000022 0.032500000000000001 0.050000000000000017</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric8">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo motor-2</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0.037500000000000006 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>side support-2</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.01749999999999996 0.034999999999999996</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident43">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-2</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0.037500000000000006 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>side support-2</Uid>
+</InstancePath>
+<Position>0.0024999999999999745 0.032500000000000029 0.05000000000000001</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric10">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>side support-3</Uid>
+</InstancePath>
+<Position>0 -0.0025000000000000022 -0.037500000000000006</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo motor-5</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.037500000000000033 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident44">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>side support-3</Uid>
+</InstancePath>
+<Position>0 -0.0025000000000000022 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-5</Uid>
+</InstancePath>
+<Position>0.010000000000000009 0.037500000000000033 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric11">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>side support-1</Uid>
+</InstancePath>
+<Position>0 -0.0024999999999999467 -0.037500000000000006</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo motor-6</Uid>
+</InstancePath>
+<Position>0.0099999999999999811 0.037500000000000033 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident45">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>side support-1</Uid>
+</InstancePath>
+<Position>0 -0.0024999999999999467 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-6</Uid>
+</InstancePath>
+<Position>0.0099999999999999811 0.037500000000000033 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric12">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>side support-4</Uid>
+</InstancePath>
+<Position>0 -0.0025000000000000022 -0.037499999999999992</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo motor-7</Uid>
+</InstancePath>
+<Position>0.010000000000000002 0.037500000000000033 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident46">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>side support-4</Uid>
+</InstancePath>
+<Position>0 -0.0025000000000000022 0</Position>
+<Axis>0 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-7</Uid>
+</InstancePath>
+<Position>0.010000000000000002 0.037500000000000033 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric13">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>side support-2</Uid>
+</InstancePath>
+<Position>0 -0.0025000000000000577 -0.037499999999999992</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>servo motor-8</Uid>
+</InstancePath>
+<Position>0.010000000000000002 0.037499999999999978 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident47">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>side support-2</Uid>
+</InstancePath>
+<Position>0 -0.0025000000000000022 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-8</Uid>
+</InstancePath>
+<Position>0.010000000000000002 0.037499999999999978 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident48">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-5</Uid>
+</InstancePath>
+<Position>-0.01999999999999999 0.017500000000000016 -0.010000000000000009</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-1</Uid>
+</InstancePath>
+<Position>-0.01999999999999999 -0.0050000000000000044 -0.0025000000000000022</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident51">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-5</Uid>
+</InstancePath>
+<Position>-0.01999999999999999 0.017500000000000016 -0.010000000000000009</Position>
+<Axis>-1.0000000000000004 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-1</Uid>
+</InstancePath>
+<Position>0.01999999999999999 0.014999999999999986 -0.0025000000000000022</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident52">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident53">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-6</Uid>
+</InstancePath>
+<Position>-0.020000000000000046 0.017500000000000016 0.010000000000000037</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-3</Uid>
+</InstancePath>
+<Position>-0.020000000000000018 -0.0050000000000000044 -0.0025000000000000577</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident54">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-6</Uid>
+</InstancePath>
+<Position>-0.020000000000000018 0.017500000000000016 -0.010000000000000009</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-3</Uid>
+</InstancePath>
+<Position>0.020000000000000018 0.014999999999999986 -0.0025000000000000577</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident56">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-3</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident57">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-7</Uid>
+</InstancePath>
+<Position>-0.020000000000000011 0.017500000000000002 0.010000000000000009</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-2</Uid>
+</InstancePath>
+<Position>-0.020000000000000007 -0.0049999999999999767 -0.0025000000000000022</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident58">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-7</Uid>
+</InstancePath>
+<Position>0.020000000000000004 0.017500000000000002 -0.0099999999999999811</Position>
+<Axis>1 0 1.7315804543469016e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-2</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 0.014999999999999986 -0.0025000000000000022</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident59">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident60">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-8</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 0.01749999999999996 -0.010000000000000009</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-4</Uid>
+</InstancePath>
+<Position>0.01999999999999999 0.014999999999999986 -0.0025000000000000577</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident61">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-8</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 0.01749999999999996 -0.010000000000000009</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-4</Uid>
+</InstancePath>
+<Position>-0.020000000000000004 -0.0050000000000000044 -0.0025000000000000577</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident62">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>servo motor-8</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-4</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident67">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-2</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0</Position>
+<Axis>-1 -2.1564992968973497e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rubber pad-2</Uid>
+</InstancePath>
+<Position>-0.009999999999999995 0 0.0025000000000000022</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident68">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-2</Uid>
+</InstancePath>
+<Position>0.034999999999999989 0.014999999999999986 0.009999999999999995</Position>
+<Axis>0 -1.0957218205681629e-016 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rubber pad-2</Uid>
+</InstancePath>
+<Position>0.010000000000000023 0 -0.0025000000000000022</Position>
+<Axis>-1.0000000000000002 0 3.4434260998139621e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident69">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-2</Uid>
+</InstancePath>
+<Position>0.035000000000000017 -0.080000000000000016 -0.010000000000000009</Position>
+<Axis>2.3365297970891468e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rubber pad-2</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident70">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-1</Uid>
+</InstancePath>
+<Position>0.035000000000000031 -0.080000000000000016 -0.010000000000000009</Position>
+<Axis>2.2852550546738018e-016 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rubber pad-5</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident71">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-1</Uid>
+</InstancePath>
+<Position>0.029999999999999971 0 0</Position>
+<Axis>-1.0000000000000002 -2.2076910565536434e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rubber pad-5</Uid>
+</InstancePath>
+<Position>-0.009999999999999995 0 0.0025000000000000022</Position>
+<Axis>-1.6870185803874449e-016 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident72">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-1</Uid>
+</InstancePath>
+<Position>0.035000000000000031 0.014999999999999986 0.009999999999999995</Position>
+<Axis>0 -1.0955862952966022e-016 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rubber pad-5</Uid>
+</InstancePath>
+<Position>0.009999999999999995 0 -0.0025000000000000022</Position>
+<Axis>-1.0000000000000002 0 1.7824283715661693e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident73">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rubber pad-6</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0.99999999999999978 1.6056949471215595e-016</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-3</Uid>
+</InstancePath>
+<Position>0.035000000000000059 -0.080000000000000043 -0.010000000000000064</Position>
+<Axis>2.4395141803986928e-016 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident74">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-3</Uid>
+</InstancePath>
+<Position>0.035000000000000003 0.014999999999999958 -0.010000000000000064</Position>
+<Axis>0 1.2555061157382141e-016 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rubber pad-6</Uid>
+</InstancePath>
+<Position>-0.010000000000000064 0 -0.0025000000000000577</Position>
+<Axis>1 0 -2.2204460492503131e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident75">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-3</Uid>
+</InstancePath>
+<Position>0.029999999999999999 0 0</Position>
+<Axis>-1.0000000000000002 -2.0368093062855808e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rubber pad-6</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0 0.0024999999999999467</Position>
+<Axis>-1.2490009027033011e-016 -1.6056949471215595e-016 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident76">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-4</Uid>
+</InstancePath>
+<Position>0.03500000000000001 -0.080000000000000016 -0.010000000000000064</Position>
+<Axis>2.3152629173659595e-016 -1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rubber pad-7</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 1.0000000000000002 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident77">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-4</Uid>
+</InstancePath>
+<Position>0.034999999999999996 0.014999999999999986 0.0099999999999999534</Position>
+<Axis>0 -1.0956540579323826e-016 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rubber pad-7</Uid>
+</InstancePath>
+<Position>-0.010000000000000064 0 -0.0024999999999999814</Position>
+<Axis>1.0000000000000002 0 -3.4694469519536142e-016</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident78">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Leg support-4</Uid>
+</InstancePath>
+<Position>0.034999999999999983 0 0</Position>
+<Axis>1 2.1874858796902801e-016 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Rubber pad-7</Uid>
+</InstancePath>
+<Position>-0.010000000000000009 0 0.0025000000000000161</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Body" uid="Body*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Body.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.20009000000000005</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>0.0012546262708333338 0.0015793110833333341 0.00032551852083333356 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Body_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Leg support" uid="Leg support*:*Default" version="117">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Leg support.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015515000000000008</Mass>
+<CenterOfMass>0.021293103448275872 -0.022672413793103481 0</CenterOfMass>
+<Inertia>1.1228965876436796e-005 6.3918279454023055e-006 1.6920835488505766e-005 0 0 3.2466659482758667e-006</Inertia>
+</MassProperties>
+<GeometryFile name="Leg support_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+<Part name="Rubber pad" uid="Rubber pad*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Rubber pad.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015500000000000003</Mass>
+<CenterOfMass>0 -8.0645161290322621e-005 0</CenterOfMass>
+<Inertia>2.2613575268817206e-006 4.2489583333333344e-006 2.2457325268817215e-006 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Rubber pad_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Diffuse r="0.29803921568627451" g="0.29803921568627451" b="0.29803921568627451" a="1"/>
+<Specular r="0.14901960784313725" g="0.14901960784313725" b="0.14901960784313725" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.80000001192092896</Shininess>
+</VisualProperties>
+</Part>
+<Part name="servo motor" uid="servo motor*:*Default" version="129">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="servo motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.026973064127613789</Mass>
+<CenterOfMass>0.0001383098804973589 0.0003803521713677411 0</CenterOfMass>
+<Inertia>3.8933293303086935e-006 4.4712895869444239e-006 6.590119758520991e-006 0 0 -1.0117367758381865e-007</Inertia>
+</MassProperties>
+<GeometryFile name="servo motor_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="1"/>
+<Diffuse r="1" g="1" b="1" a="1"/>
+<Specular r="1" g="1" b="1" a="1"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="side support" uid="side support*:*Default" version="152">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="side support.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.015304905991291183</Mass>
+<CenterOfMass>0 0.0053854742701914624 0.01102833415683376</CenterOfMass>
+<Inertia>1.4419550718080151e-005 1.3404302149921251e-005 1.747878433752152e-006 -1.97584483860113e-006 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="side support_Default_sldprt.STL" type="STL"/>
+<VisualProperties>
+<Ambient r="1" g="1" b="1" a="0.31999999999999995"/>
+<Diffuse r="1" g="1" b="1" a="0.31999999999999995"/>
+<Specular r="0.69999998807907104" g="0.69999998807907104" b="0.69999998807907104" a="0.31999999999999995"/>
+<Emissive r="0.29999999999999999" g="0.29999999999999999" b="0.29999999999999999" a="0.31999999999999995"/>
+<Shininess>0.10000000149011612</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimMechanicsImportXML>
